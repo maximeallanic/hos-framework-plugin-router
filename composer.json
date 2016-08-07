@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4":{
-            "Hos\\Plugin\\Router": "src/"
+            "Hos\\Plugin\\Router\\": "src/"
         }
     },
     "events": {
