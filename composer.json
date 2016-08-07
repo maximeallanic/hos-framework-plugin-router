@@ -1,5 +1,5 @@
 {
-    "name": "hos/hos-framework-plugin-router",
+    "name": "hos/plugin-router",
     "description": "Router Plugin Framework for Hos",
     "keywords": [ "daehl", "hos", "framework", "router" ],
     "homepage": "https://github.com/mallanic/hos-framework-plugin-router",
