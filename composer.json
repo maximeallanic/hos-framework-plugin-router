@@ -1,0 +1,26 @@
+{
+    "name": "hos/hos-framework-plugin-router",
+    "description": "Router Plugin Framework for Hos",
+    "keywords": [ "daehl", "hos", "framework", "router" ],
+    "homepage": "https://github.com/mallanic/hos-framework-plugin-router",
+    "type": "library",
+    "license": "CC0 1.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Maxime Allanic",
+            "email": "maxime.allanic@daehl.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "Hos\\Plugin\\Router": "src/"
+        }
+    },
+    "events": {
+      "route": {
+        "url": ["Hos\\Plugin\\Router\\Events::route"]
+      }
+    }
+
+}
